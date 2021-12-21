@@ -27,10 +27,85 @@ nav{
 .nav-links a{
     color: rgb(0, 0, 0);
     text-decoration: none;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     font-weight: bold;
     font-size: 16px;
 }
 .nav-links li{
     list-style: none;
+    text-transform: uppercase;
+}
+.footer{
+    background-color: black;
+    padding: 10px;
+    height: 550px;
+}
+.footer-head{
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-text{
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: Helvetica;
+    margin-top: 30px;
+}
+.footer-text a{
+    padding-top: 35px;
+}
+.footer-subscribe{
+    width: 500px;
+}
+.butoni-sub{
+    background-color: #6E3FFB;
+    width: 100px;
+    height: 20px;
+}
+.footer-middle{
+    height: 30px;
+    color: #6E3FFB;
+    font-size: 15px;
+    text-align: center;
+    font-family: Helvetica;
+    font-weight: bold;
+    width: 220px;
+    margin-top: 25px;
+}
+.footer-mid{
+    display: flex;
+    flex-direction:row;
+    justify-content: left;
+    padding-left: 122px;
+}
+.footer-line{
+    width: -webkit-fill-available;
+    align-self: center;
+    padding-left: 40px;
+    padding-right: 150px;
+}
+.footer-footer{
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    padding-top: 20px;
+    margin-top: 25px;
+}
+.footer-footer ul{
+    color: white;
+    font-size: 19px;
+}
+.footer-footer ul li{
+    list-style: none;
+    padding-top: 20px;
+}
+.footer-footer ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.mm{
+    background-color: beige;
+    height: 1000px;
 }
