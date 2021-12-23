@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color:rgb(255, 255, 255)
+}
+.logo{
+    color: rgb(32, 48, 60);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 25px;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 55%;
+}
+.nav-links a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.nav-links li{
+    list-style: none;
+    text-transform: uppercase;
+}
+.footer{
+    background-color: black;
+    padding: 10px;
+    height: 550px;
+}
+.footer-head{
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-text{
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: Helvetica;
+    margin-top: 30px;
+}
+.footer-text a{
+    padding-top: 35px;
+}
+.footer-subscribe{
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+}
+.footer-email{
+    padding-top: 85px;
+    bottom: 0;
+}
+.butoni-sub{
+    width: 100px;
+    border-radius: 5px;
+}
+.footer-email-class{
+    height: 34px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    background-color: black;
+    color: white;
+}
+.footer-subscribe{
+    padding-top: 80px;
+    padding-left: 25px;
+    bottom: 0;
+}
+.butoni-sub{
+    background-color: #6E3FFB;
+    color: white;
+}
+.footer-middle{
+    height: 30px;
+    color: #6E3FFB;
+    font-size: 15px;
+    text-align: center;
+    font-family: Helvetica;
+    font-weight: bold;
+    width: 220px;
+    margin-top: 25px;
+}
+.footer-mid{
+    display: flex;
+    flex-direction:row;
+    justify-content: left;
+    padding-left: 122px;
+}
+.footer-line{
+    width: -webkit-fill-available;
+    align-self: center;
+    padding-left: 40px;
+    padding-right: 150px;
+}
+.footer-footer{
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    padding-top: 20px;
+    margin-top: 25px;
+}
+.footer-footer ul{
+    color: white;
+    font-size: 19px;
+}
+.footer-footer ul li{
+    list-style: none;
+    padding-top: 20px;
+}
+.footer-footer ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.mm{
+    background-color: rgb(62, 165, 79);
+    height: 1000px;
+}
