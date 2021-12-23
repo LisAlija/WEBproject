@@ -57,11 +57,33 @@ nav{
 }
 .footer-subscribe{
     width: 500px;
+    display: flex;
+    flex-direction: row;
+}
+.footer-email{
+    padding-top: 85px;
+    bottom: 0;
+}
+.butoni-sub{
+    width: 100px;
+    border-radius: 5px;
+}
+.footer-email-class{
+    height: 34px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    background-color: black;
+    color: white;
+}
+.footer-subscribe{
+    padding-top: 80px;
+    padding-left: 25px;
+    bottom: 0;
 }
 .butoni-sub{
     background-color: #6E3FFB;
-    width: 100px;
-    height: 20px;
+    color: white;
 }
 .footer-middle{
     height: 30px;
