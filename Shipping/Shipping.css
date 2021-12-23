@@ -38,7 +38,7 @@ nav{
 .footer{
     background-color: black;
     padding: 10px;
-    height: 550px;
+    height:600px;
 }
 .footer-head{
     height: 200px;
@@ -88,15 +88,16 @@ nav{
 .footer-middle{
     height: 30px;
     color: #6E3FFB;
-    font-size: 15px;
+    font-size: 25px;
     text-align: center;
     font-family: Helvetica;
     font-weight: bold;
-    width: 220px;
+    width: 350px;
     margin-top: 25px;
 }
 .footer-mid{
     display: flex;
+    margin-top: 30px;
     flex-direction:row;
     justify-content: left;
     padding-left: 122px;
@@ -120,14 +121,15 @@ nav{
 }
 .footer-footer ul li{
     list-style: none;
-    padding-top: 20px;
+    padding-top: 25px;
 }
 .footer-footer ul li a{
     color: white;
     text-decoration: none;
     font-size: 14px;
+    font-family: Helvetica;
 }
 .mm{
-    background-color: rgb(209, 49, 49);
+    background-color: rgb(102, 50, 29);
     height: 1000px;
 }
