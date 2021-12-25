@@ -129,7 +129,68 @@ nav{
     font-size: 14px;
     font-family: Helvetica;
 }
-.mm{
-    background-color: rgb(102, 50, 29);
-    height: 1000px;
+.body{
+    background-color: #F0F0F0;
+    height: 908px;
+}
+.top-body{
+    display: flex;
+    flex-direction: row;
+    padding-left: 122px;
+    padding-top: 70px;
+}
+.top-line{
+    width: -webkit-fill-available;
+    align-self: center;
+    padding-left: 40px;
+    padding-right: 150px;
+}
+.top-text a{
+    color: black;
+    font-family: Helvetica;
+    font-size: 33px;
+    font-weight: bold   ;
+}
+.top-text{
+    width: 180px;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+.our-store{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 500px;
+    length: 300px;
+}
+.opening-hours{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 500px;
+    length: 300px;
+}
+.text-1-1{
+    font-size: 20px;
+    font-family: Helvetica;
+    font-weight: bold;
+    color: black;
+}
+.text-2-2{
+    font-size: 15px;
+    font-family: Helvetica;
+    color: black;
+}
+.text-2-2-1{
+    font-size: 15px;
+    font-family: Helvetica;
+    color: black;
+    padding-top: 10px;
+}
+.map {
+    padding-top: 100px;
 }
