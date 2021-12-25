@@ -172,9 +172,9 @@ nav{
     padding-top: 100px;
     font-family: Helvetica;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 35px;
     color: black;
-    padding-left: 80px;
+    text-align: center;
 }
 .team-foto{
     display: flex;
@@ -187,9 +187,11 @@ nav{
     font-size: 23px;
     color: black;
     font-weight: bold;
+    font-family: Helvetica;
 }
 .Descrition{
     padding-top: 20px;
     font-size: 15px;
     color: black;
+    font-family: Helvetica;
 }
