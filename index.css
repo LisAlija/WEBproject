@@ -130,6 +130,39 @@ nav{
     font-family: Helvetica;
 }
 .body{
-    background-color: rgb(102, 50, 29);
+    background-color: #f0f0f0;
     height: 1000px;
+}
+img{
+    width: 80%;
+    height: 400px;
+}
+.show-content{
+    display: block;
+}
+.hidden-content{
+    display: none;
+}
+.slider{
+    padding-top: 100px;
+    padding-left:20%
+}
+.body-phones{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+.body-phones-txt{
+    font-size: 35px;
+    color: black;
+    font-family: Helvetica;
+    padding-left: 15%;
+    font-weight: bold;
+    width: 500px;
+}
+.body-phones-line{
+    width: 70%;
+    padding-left:100px;
+    align-self: center;
+    padding-right: 100px;
 }
