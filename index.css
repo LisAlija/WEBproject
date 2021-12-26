@@ -131,9 +131,9 @@ nav{
 }
 .body{
     background-color: #f0f0f0;
-    height: 1000px;
+    height: 2800px;
 }
-img{
+.slider-content     img{
     width: 80%;
     height: 400px;
 }
@@ -165,4 +165,178 @@ img{
     padding-left:100px;
     align-self: center;
     padding-right: 100px;
+}
+.mobile-phones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.mobile-phone-div{
+    width: 160px;
+    height: 212px;
+}
+.emertimi{
+    font-size: 14px;
+    font-family: helvetica;
+    color: black;
+    padding-top: 20px;
+    text-align: center;
+}
+.qmimi{
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    padding-top: 15px;
+    text-align: center;
+}
+.more-mobile-phones{
+    height: 100px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.more-phones{
+    background-color: #6E3FFB;
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    font-family: Helvetica;
+    border-radius: 4px;
+}
+.more-phones a{
+    text-decoration: none;
+}
+.body-tablets{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+.body-tablets-txt{
+    font-size: 35px;
+    color: black;
+    font-family: Helvetica;
+    padding-left: 15%;
+    font-weight: bold;
+    width: 500px;
+}
+.body-tablets-line{
+    padding-left:100px;
+    align-self: center;
+    padding-right: 100px;
+    width: 70%;
+}
+.tablets{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.tablets-div{
+    width: 160px;
+    height: 212px;
+}
+.more-tablets{
+    height: 100px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.more-tablets-1{
+    background-color: #6E3FFB;
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    font-family: Helvetica;
+    border-radius: 4px;
+}
+.more-tablets-1 a{
+    text-decoration: none;
+}
+.body-laptops{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+.body-laptops-txt{
+    font-size: 35px;
+    color: black;
+    font-family: Helvetica;
+    padding-left: 15%;
+    font-weight: bold;
+    width: 500px;
+}
+.body-laptops-line{
+    padding-left:100px;
+    align-self: center;
+    padding-right: 100px;
+    width: 70%;
+}
+.laptops{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.laptops-div{
+    width: 160px;
+    height: 212px;
+}
+.more-laptops{
+    height: 100px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.more-laptops-1{
+    background-color: #6E3FFB;
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    font-family: Helvetica;
+    border-radius: 4px;
+}
+.more-laptops-1 a{
+    text-decoration: none;
+}
+.our-brands{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+.our-brands-txt{
+    font-size: 35px;
+    color: #999999;
+    font-family: Helvetica;
+    padding-left: 15%;
+    font-weight: bold;
+    width: 500px;
+}
+.our-brands-line{
+    padding-left:50px;
+    align-self: center;
+    padding-right: 100px;
+    width: 80%;
+}
+.brands{
+    background-color: #DCDCDC;
+    height: 800px;
+    margin-top: 0px;
+    padding-top: 100px;
+}
+.logo-1{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+}
+.logo-2{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
 }
