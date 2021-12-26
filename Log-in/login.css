@@ -129,7 +129,132 @@ nav{
     font-size: 14px;
     font-family: Helvetica;
 }
-.mm{
-    background-color: rgb(255, 255, 255);
+.body{
+    background-color: #F0F0F0;
     height: 1000px; 
 }
+.top-body{
+    display: flex;
+    flex-direction: row;
+    padding-left: 122px;
+    padding-top: 70px;
+}
+.top-line{
+    width: -webkit-fill-available;
+    align-self: center;
+    padding-left: 40px;
+    padding-right: 150px;
+}
+.top-text a{
+    color: black;
+    font-family: Helvetica;
+    font-size: 33px;
+    font-weight: bold   ;
+}
+.top-text{
+    width: 180px;
+}
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 600px;
+    height: 350px;
+    margin: 20vh auto;
+    background: lightgray;
+    box-shadow: 0 0 15px rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 25px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  
+  form {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+  }
+  .form-item {
+    display: flex;
+    width: 90%;
+    background: transparent;
+    margin: 10px auto;
+    border-radius: 15px;
+    align-items: center;
+    border-bottom: 1px solid rgb(82, 81, 81);
+  }
+  .form-item:hover {
+    border: 1px solid rgb(82, 81, 81);
+  }
+  input {
+    background: transparent;
+    width: 80%;
+    height: 30px;
+    outline: none;
+    border: none;
+    margin: auto;
+    color: white;
+    font-size: 17px;
+  }
+  
+  button[type="submit"] {
+    width: 180px;
+    font-size: 20px;
+    margin: 10px auto;
+    padding: 10px;
+    background: rgba(122, 123, 116, 0.72);
+    border: none;
+    color: white;
+  }
+  button[type="submit"]:hover {
+    background: lightskyblue;
+  }
+  p:first-of-type {
+    margin: 0;
+  }
+  .options {
+    display: flex;
+    margin: 10px auto;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  button {
+    font-size: 18px;
+    padding: 5px 16px;
+    margin: 5px 15px;
+    width: 180px;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    transition: all 0.7s ease;
+  }
+  .fb:hover {
+    background: rgba(55, 53, 207, 0.637);
+    border: none;
+    box-shadow: 0 0 2px rgba(55, 53, 207, 0.637);
+  }
+  .gl:hover {
+    background: rgba(207, 53, 53, 0.671);
+    border: none;
+    box-shadow: 0 0 2px rgba(207, 53, 53, 0.671);
+  }
+  
+  p {
+    font-size: 18px;
+    margin: 5px;
+  }
+  a {
+    color: white;
+  }
+  a:hover {
+    color: grey;
+  }
+  
+  @media screen and (max-width: 550px) {
+    .container {
+      width: 90%;
+    }
+  }
