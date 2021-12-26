@@ -165,14 +165,12 @@ nav{
     flex-direction: row;
     justify-content: space-around;
     width: 500px;
-    length: 300px;
 }
 .opening-hours{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     width: 500px;
-    length: 300px;
 }
 .text-1-1{
     font-size: 20px;
