@@ -129,7 +129,51 @@ nav{
     font-size: 14px;
     font-family: Helvetica;
 }
-.mm{
-    background-color: rgb(102, 50, 29);
-    height: 1000px;
+.laptop{
+    background-color: #F0F0F0;
+    height: 1600px;
+    margin-top: 0px;
+    padding-top: 25px;
+
+}
+.laptop-head{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+.laptop-txt{
+    font-size: 35px;
+    color: black;
+    font-family: Helvetica;
+    padding-left: 15%;
+    font-weight: bold;
+    min-width: max-content;
+}
+.laptop-line{
+    width: 70%;
+    padding-left:100px;
+    align-self: center;
+    padding-right: 100px;
+}
+.body-laptop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 100px;
+}
+.laptop-body{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+}
+.laptop-img{
+    align-self: center;
+}
+.laptop-text{
+    padding-left: 25px;
+}
+.laptop-a{
+    font-size: 16px;
+    font-family: Helvetica;
+    padding-top: 14px;
 }
