@@ -129,7 +129,54 @@ nav{
     font-size: 14px;
     font-family: Helvetica;
 }
-.mm{
-    background-color: rgb(102, 50, 29);
-    height: 1000px;
+.mobile{
+    height: 2050px;
+    background-color: #f0f0f0;
+    margin-top: 0px;
+    padding-top: 20px;
+}
+.mobile-head{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+.mobile-txt{
+    font-size: 35px;
+    color: black;
+    font-family: Helvetica;
+    padding-left: 15%;
+    font-weight: bold;
+    min-width: max-content;
+}
+.mobile-line{
+    width: 70%;
+    padding-left:100px;
+    align-self: center;
+    padding-right: 100px;
+}
+.phone{
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-left: 15px;
+}
+.phone-txt{
+    font-family: Helvetica;
+    font-size: 20px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+.phone-a{
+    padding-top: 25px;
+    padding-left: 17px;
+}
+.mobile-phone{
+    padding-top: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
